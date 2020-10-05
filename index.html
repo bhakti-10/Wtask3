@@ -47,7 +47,7 @@
                         <a class="dropdown-item " href="#">Something else here</a>
                     </div>
                 </li>
-                
+
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -62,15 +62,17 @@
     <div class="jumbotron banner"
         style="text-align:center; background-image:url(images/banner.jpg); background-size:cover;">
         <div class="banner-content">
-        <h1 class="display-4 banner-heading">IT Solutions, <br>
-            Simplified.
-           </h1>
-        <p class="lead banner-text"> We build Apps, Web-Applications and APIs. Top class service, all over the world.</p>
-       <!--<hr class="my-4">--> 
-        <br>
-        <p class="lead">
-            <button class="btn-navbar banner-btn" type="submit">Learn More</button>
-        </p></div>
+            <h1 class="display-4 banner-heading">IT Solutions, <br>
+                Simplified.
+            </h1>
+            <p class="lead banner-text"> We build Apps, Web-Applications and APIs. Top class service, all over the
+                world.</p>
+            <!--<hr class="my-4">-->
+            <br>
+            <p class="lead">
+                <button class="btn-navbar banner-btn" type="submit">Learn More</button>
+            </p>
+        </div>
     </div>
     <!--Banner Starts here-->
 
@@ -109,16 +111,71 @@
         </div>
     </div>
 
+    <!--Testimonials starts here-->
+    <h1 class="wwo-heading">Testimonials</h1>
+    <div class="testimonials">
+        <div class="container-xl ">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active">
+                                <div class="img-box"><img src="images/testimonials/t1.png" alt=""></div>
+                                <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu
+                                    sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel,
+                                    semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius
+                                    nibh non aliquet.</p>
+                                <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="img-box"><img src="images/testimonials/t2.png" alt=""></div>
+                                <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque
+                                    eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra
+                                    sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh,
+                                    facilisis gravida odio.</p>
+                                <p class="overview"><b>Antonio Moreno</b>, Web Developer</p>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="img-box"><img src="images/testimonials/t3.png" alt=""></div>
+                                <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id
+                                    lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan
+                                    tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa.
+                                    Etiam hendrerit dolor eget rutrum.</p>
+                                <p class="overview"><b>Michelle Holz</b>, Seo Analyst</p>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--testimonials end-->
+
     <!--Pricing section-->
     <div class="price">
 
         <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center price-heading">
-            <h1 class="display-4">Pricing</h1>
-            <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap
-                example. It's built with default Bootstrap components and utilities with little customization.</p>
+            <h1 class=" wwo-heading">Pricing</h1>
+            <p class="lead price-text">Quickly build an effective pricing table for your potential customers with this
+                Bootstrap
+                example. <br> It's built with default Bootstrap components and utilities with little customization.</p>
         </div>
 
-        <div class="container">
+        <div class="container price-text">
             <div class="card-deck mb-3 text-center">
                 <div class="card mb-4 box-shadow">
                     <div class="card-header">
@@ -132,7 +189,7 @@
                             <li>Email support</li>
                             <li>Help center access</li>
                         </ul>
-                        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+                        <button type="button" class="btn-lg btn-block btn-navbar">Sign up for free</button>
                     </div>
                 </div>
                 <div class="card mb-4 box-shadow">
@@ -147,7 +204,7 @@
                             <li>Priority email support</li>
                             <li>Help center access</li>
                         </ul>
-                        <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+                        <button type="button" class=" btn-lg btn-block btn-navbar">Get started</button>
                     </div>
                 </div>
                 <div class="card mb-4 box-shadow">
@@ -162,7 +219,7 @@
                             <li>Phone and email support</li>
                             <li>Help center access</li>
                         </ul>
-                        <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+                        <button type="button" class="btn-lg btn-block btn-navbar">Contact us</button>
                     </div>
                 </div>
             </div>
@@ -175,11 +232,12 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
                         <h6>About</h6>
-                        <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help
-                            the upcoming programmers with the code. Scanfcode focuses on providing the most efficient
-                            code or snippets as the code wants to be simple. We will help programmers build up concepts
-                            in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap,
-                            JavaScript, PHP, Android, SQL and Algorithm.</p>
+                        <p class="text-justify">WebGenix is a software development company based in Nashik, India. Our
+                            goal is to provide top class services to our diversified clients from all over the world. We
+                            primarily focus on Mobile Application Development, Website Development, Logo Design,
+                            Application design and many more.
+
+                        </p>
                     </div>
 
                     <div class="col-xs-6 col-md-3">
@@ -210,8 +268,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-sm-6 col-xs-12">
-                        <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
-                            <a href="#">Scanfcode</a>.
+                        <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved.
                         </p>
                     </div>
 
